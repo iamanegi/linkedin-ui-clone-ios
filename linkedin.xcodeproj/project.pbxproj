@@ -16,6 +16,11 @@
 		1E50FC9228CDCE66008A2D02 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50FC9128CDCE66008A2D02 /* NetworkModel.swift */; };
 		1E50FC9428CDCF48008A2D02 /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50FC9328CDCF48008A2D02 /* InvitationView.swift */; };
 		1E50FC9728CDE1F6008A2D02 /* MyNetworkScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50FC9628CDE1F6008A2D02 /* MyNetworkScreen.swift */; };
+		1E50FC9928CDE51D008A2D02 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50FC9828CDE51D008A2D02 /* PostCardView.swift */; };
+		1E50FC9B28CDE9FB008A2D02 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50FC9A28CDE9FB008A2D02 /* HomeScreen.swift */; };
+		1E50FC9D28CDEB54008A2D02 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50FC9C28CDEB54008A2D02 /* HomeHeaderView.swift */; };
+		1E50FC9F28CDEBBB008A2D02 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50FC9E28CDEBBB008A2D02 /* PostListView.swift */; };
+		1E50FCA328CDEF20008A2D02 /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50FCA228CDEF20008A2D02 /* TabScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		1E50FC9128CDCE66008A2D02 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		1E50FC9328CDCF48008A2D02 /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
 		1E50FC9628CDE1F6008A2D02 /* MyNetworkScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkScreen.swift; sourceTree = "<group>"; };
+		1E50FC9828CDE51D008A2D02 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
+		1E50FC9A28CDE9FB008A2D02 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		1E50FC9C28CDEB54008A2D02 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		1E50FC9E28CDEBBB008A2D02 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		1E50FCA228CDEF20008A2D02 /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,9 @@
 			children = (
 				1E50FC8C28CDCBD9008A2D02 /* SearchBarView.swift */,
 				1E50FC9328CDCF48008A2D02 /* InvitationView.swift */,
+				1E50FC9828CDE51D008A2D02 /* PostCardView.swift */,
+				1E50FC9C28CDEB54008A2D02 /* HomeHeaderView.swift */,
+				1E50FC9E28CDEBBB008A2D02 /* PostListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -102,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				1E50FC9628CDE1F6008A2D02 /* MyNetworkScreen.swift */,
+				1E50FC9A28CDE9FB008A2D02 /* HomeScreen.swift */,
+				1E50FCA228CDEF20008A2D02 /* TabScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -176,10 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E50FC9928CDE51D008A2D02 /* PostCardView.swift in Sources */,
 				1E50FC8028CDCAEB008A2D02 /* ContentView.swift in Sources */,
 				1E50FC9028CDCE5B008A2D02 /* PostModel.swift in Sources */,
 				1E50FC8D28CDCBD9008A2D02 /* SearchBarView.swift in Sources */,
 				1E50FC9228CDCE66008A2D02 /* NetworkModel.swift in Sources */,
+				1E50FCA328CDEF20008A2D02 /* TabScreen.swift in Sources */,
+				1E50FC9F28CDEBBB008A2D02 /* PostListView.swift in Sources */,
+				1E50FC9B28CDE9FB008A2D02 /* HomeScreen.swift in Sources */,
+				1E50FC9D28CDEB54008A2D02 /* HomeHeaderView.swift in Sources */,
 				1E50FC7E28CDCAEB008A2D02 /* linkedinApp.swift in Sources */,
 				1E50FC9428CDCF48008A2D02 /* InvitationView.swift in Sources */,
 				1E50FC9728CDE1F6008A2D02 /* MyNetworkScreen.swift in Sources */,
