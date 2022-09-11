@@ -11,6 +11,11 @@
 		1E50FC8028CDCAEB008A2D02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50FC7F28CDCAEB008A2D02 /* ContentView.swift */; };
 		1E50FC8228CDCAEF008A2D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E50FC8128CDCAEF008A2D02 /* Assets.xcassets */; };
 		1E50FC8528CDCAEF008A2D02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E50FC8428CDCAEF008A2D02 /* Preview Assets.xcassets */; };
+		1E50FC8D28CDCBD9008A2D02 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50FC8C28CDCBD9008A2D02 /* SearchBarView.swift */; };
+		1E50FC9028CDCE5B008A2D02 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50FC8F28CDCE5B008A2D02 /* PostModel.swift */; };
+		1E50FC9228CDCE66008A2D02 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50FC9128CDCE66008A2D02 /* NetworkModel.swift */; };
+		1E50FC9428CDCF48008A2D02 /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50FC9328CDCF48008A2D02 /* InvitationView.swift */; };
+		1E50FC9728CDE1F6008A2D02 /* MyNetworkScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50FC9628CDE1F6008A2D02 /* MyNetworkScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		1E50FC7F28CDCAEB008A2D02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E50FC8128CDCAEF008A2D02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E50FC8428CDCAEF008A2D02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E50FC8C28CDCBD9008A2D02 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		1E50FC8F28CDCE5B008A2D02 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		1E50FC9128CDCE66008A2D02 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		1E50FC9328CDCF48008A2D02 /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
+		1E50FC9628CDE1F6008A2D02 /* MyNetworkScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +61,13 @@
 		1E50FC7C28CDCAEB008A2D02 /* linkedin */ = {
 			isa = PBXGroup;
 			children = (
-				1E50FC7D28CDCAEB008A2D02 /* linkedinApp.swift */,
-				1E50FC7F28CDCAEB008A2D02 /* ContentView.swift */,
 				1E50FC8128CDCAEF008A2D02 /* Assets.xcassets */,
+				1E50FC7F28CDCAEB008A2D02 /* ContentView.swift */,
+				1E50FC7D28CDCAEB008A2D02 /* linkedinApp.swift */,
+				1E50FC8E28CDCE3B008A2D02 /* Models */,
 				1E50FC8328CDCAEF008A2D02 /* Preview Content */,
+				1E50FC9528CDE1E1008A2D02 /* Screens */,
+				1E50FC8B28CDCBC2008A2D02 /* Views */,
 			);
 			path = linkedin;
 			sourceTree = "<group>";
@@ -65,6 +78,32 @@
 				1E50FC8428CDCAEF008A2D02 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E50FC8B28CDCBC2008A2D02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E50FC8C28CDCBD9008A2D02 /* SearchBarView.swift */,
+				1E50FC9328CDCF48008A2D02 /* InvitationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1E50FC8E28CDCE3B008A2D02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1E50FC8F28CDCE5B008A2D02 /* PostModel.swift */,
+				1E50FC9128CDCE66008A2D02 /* NetworkModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1E50FC9528CDE1E1008A2D02 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1E50FC9628CDE1F6008A2D02 /* MyNetworkScreen.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +177,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E50FC8028CDCAEB008A2D02 /* ContentView.swift in Sources */,
+				1E50FC9028CDCE5B008A2D02 /* PostModel.swift in Sources */,
+				1E50FC8D28CDCBD9008A2D02 /* SearchBarView.swift in Sources */,
+				1E50FC9228CDCE66008A2D02 /* NetworkModel.swift in Sources */,
 				1E50FC7E28CDCAEB008A2D02 /* linkedinApp.swift in Sources */,
+				1E50FC9428CDCF48008A2D02 /* InvitationView.swift in Sources */,
+				1E50FC9728CDE1F6008A2D02 /* MyNetworkScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
